@@ -5,8 +5,8 @@ class ContactController < ApplicationController
   end
 
   def create
-    @email = Email.new(email_params)
-    @email.save
+    #@email = Email.new(email_params)
+   # @email.save
     render 'contact_success/index'
   end
 
