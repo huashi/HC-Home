@@ -8,22 +8,20 @@ default: &default
   adapter: postgresql
   pool: 5
   timeout: 5000
-  username: xohohjlicugaop
-  password: -cEJkEtxclc8J14CexetXK1u2i
-  host: ec2-107-20-222-114.compute-1.amazonaws.com
-  database: dfvmom78id9ng7
+  username: postgres
+  password: 123
 
 development:
   <<: *default
-  database: dfvmom78id9ng7
+  database: db/development_postgresql
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: dfvmom78id9ng7
+  database: db/test_postgresql
 
 production:
   <<: *default
-  database: dfvmom78id9ng7
+  database: db/production_postgresql

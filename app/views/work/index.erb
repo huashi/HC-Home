@@ -7,10 +7,9 @@
       <div class="navbar--menu">
 
         <ul class="nav-menu">
-          <li><a href="/work">Work</a></li>
-          <li><a href="/people">People</a></li>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="http://blog.oozou.com/">Blog</a></li>
+          <li><a href="/">关于我们</a></li>
+          <li><a href="/work">项目介绍</a></li>
+          <li><a href="/contact">联系我们</a></li>
         </ul>
 
       </div>
@@ -201,80 +200,4 @@
 </section>
 
 
-<section class="talk">
-  <div class="container">
-    <h2>Want to talk? Advice is always free!</h2>
-    <a class="button button-m-default" href="/contact">Get in touch</a>
-  </div>
-</section>
-
-<section class="connect">
-  <ul>
-    <li class="connect--subscription-form">
-      <h2><label for="mce-EMAIL">Subscribe to our newsletter</label></h2>
-
-      <!-- Begin MailChimp Signup Form -->
-      <form action="//oozou.us2.list-manage.com/subscribe/post?u=2d9367408e0f70bb0fef9928b&amp;id=280d8b6877"
-            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-            target="_blank" novalidate="">
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;"><input type="text"
-                                                               name="b_2d9367408e0f70bb0fef9928b_280d8b6877"
-                                                               tabindex="-1" value=""></div>
-        <input type="email" class="input-m-white-transparent required email" value="" name="EMAIL"
-               id="mce-EMAIL" placeholder="Email Address">
-        <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button button-m-default">Sign
-          Up
-        </button>
-      </form>
-      <!--End mc_embed_signup-->
-
-    </li>
-  </ul>
-</section>
-
-<section class="map" data-marker-icon="<%=image_path('common/map/place-3bc8a892.svg')%>">
-  <div class="map--item map--item-m-left is-subhover" data-subhover=".map-overlay--circle, .map--google-map">
-    <div class="map--google-map">
-      <script type="text/x-lazy-loaded-html" data-threshold="512">
-          <iframe src="/maps/san-francisco" width="100%" height="100%" frameborder="0"></iframe>
-
-            </script>
-
-      <iframe src="/maps/san-francisco" width="100%" height="100%" frameborder="0"></iframe>
-    </div>
-    <div class="map-overlay">
-      <div class="map-overlay--circle"></div>
-    </div>
-    <div class="map-info">
-      <p class="map-info--address"><strong>1 Market Street, San Francisco</strong></p>
-
-      <p class="map-info--phone">+1 (844) 44-OOZOU</p>
-
-      <p class="map-info--email">hello@oozou.com</p>
-    </div>
-  </div>
-  <div class="map--item map--item-m-right" data-subhover=".map-overlay--circle, .map--google-map">
-    <div class="map--google-map">
-      <script type="text/x-lazy-loaded-html" data-threshold="512">
-          <iframe src="/maps/asoke" width="100%" height="100%" frameborder="0"></iframe>
-
-            </script>
-
-      <iframe src="/maps/asoke" width="100%" height="100%" frameborder="0"></iframe>
-    </div>
-    <div class="map-overlay">
-      <div class="map-overlay--circle"></div>
-    </div>
-    <div class="map-info">
-      <p class="map-info--address"><strong>
-        Interchange Building, Sukhumvit Road, Bangkok
-      </strong></p>
-
-      <p class="map-info--phone">+66 (0)2611 2560</p>
-
-      <p class="map-info--email">hello@oozou.com</p>
-    </div>
-  </div>
-</section>
 <%= javascript_include_tag "lodash", "index","up-down" %>
