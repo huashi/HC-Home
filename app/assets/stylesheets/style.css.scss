@@ -912,11 +912,12 @@ label.visuallyhidden-with-placeholder {
 }
 
 .navbar--brand a {
-  background: no-repeat center left;
-  background-image: url(image-path("common/navbar/logo-1de7592e.png"));
-  height: 31px;
-  text-indent: -99999px;
-  display: block
+//  background: no-repeat center left;
+//  background-image: url(image-path("common/navbar/logo-1de7592e.png"));
+//  height: 31px;
+//  text-indent: -99999px;
+  display: block;
+  font-family: "Anonymous Pro", "Inconsolata", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
@@ -2163,8 +2164,8 @@ h2 + .tagline-m-small, .process-step h2 + .tagline, h3 + .tagline-m-small, .proc
 
 .introduction--logo {
   background-image: url(image-path("index/introduction/logo-head-abeeab71.png"));
-  height: 44px;
-  width: 56px;
+  height: 107px;
+  width: 237px;
   text-indent: -99999px;
   margin: 0 auto 20px
 }
@@ -2612,7 +2613,7 @@ h2 + .tagline-m-small, .process-step h2 + .tagline, h3 + .tagline-m-small, .proc
 
 .what-we-do {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.5rem
+  font-size: 1.2rem
 }
 
 .what-we-do--emphasis {
