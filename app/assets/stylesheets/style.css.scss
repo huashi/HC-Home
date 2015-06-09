@@ -871,8 +871,8 @@ label.visuallyhidden-with-placeholder {
 }
 
 .navbar .container {
-  padding-top: 30px;
-  padding-bottom: 30px
+  padding-top: 15px;
+  padding-bottom: 15px
 }
 
 @media screen and (max-width: 767px) {
@@ -900,7 +900,7 @@ label.visuallyhidden-with-placeholder {
     margin-right: 2.35765%;
     width: 74.41059%;
     text-align: right;
-    margin-top: 4px
+    margin-top: 12px
   }
   .navbar--menu:last-child {
     margin-right: 0
@@ -912,29 +912,30 @@ label.visuallyhidden-with-placeholder {
 }
 
 .navbar--brand a {
-//  background: no-repeat center left;
-//  background-image: url(image-path("common/navbar/logo-1de7592e.png"));
-//  height: 31px;
-//  text-indent: -99999px;
+  background: no-repeat center left;
+  background-image: url(image-path("common/navbar/logo-1de7592e.png"));
+  height: 55px;
+  text-indent: -99999px;
   display: block;
   font-family: 'Microsoft yahei', '????', Tahoma, Verdana, Arial, sans-serif;
+  background-size: 137px 55px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
   .navbar--brand a {
     background-image: url(image-path("common/navbar/logo_2x-481e9fa9.png"));
-    background-size: 137px 31px
+    background-size: 137px 55px
   }
 }
 
 .navbar-m-inverted .navbar--brand a, .navbar-m-white-transparent .navbar--brand a {
-  background-image: url(image-path("common/navbar/logo-m-inverted-9d1e1233.png"))
+  background-image: url(image-path("common/navbar/ych.png"))
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
   .navbar-m-inverted .navbar--brand a, .navbar-m-white-transparent .navbar--brand a {
-    background-image: url(image-path("common/navbar/logo-m-inverted_2x-0721c399.png"));
-    background-size: 137px 31px
+    background-image: url(image-path("common/navbar/ych.png"));
+    background-size: 137px 55px
   }
 }
 
@@ -2168,6 +2169,7 @@ h2 + .tagline-m-small, .process-step h2 + .tagline, h3 + .tagline-m-small, .proc
   width: 237px;
   text-indent: -99999px;
   margin: -40px auto 47px;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
