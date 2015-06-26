@@ -4,7 +4,9 @@ Rails.application.routes.draw do
   get "people" =>"people#index"
   get "work" =>"work#index"
   get "contact" =>"contact#index"
+  get "xckb"=>"xckb#index"
 
+  get "ds"=>"ds#index"
   post "contact"=>"contact#create"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
