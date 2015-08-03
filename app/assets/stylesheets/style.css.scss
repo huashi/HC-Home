@@ -50,7 +50,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: white;
   color: #333;
-  font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "YaHei UI","Microsoft yahei",微软雅黑,wf_segoe-ui_normal,Tahoma,Arial,sans-serif;
   font-size: 18px;
   line-height: 1.7
 }
@@ -2219,7 +2219,7 @@ h2 + .tagline-m-small, .process-step h2 + .tagline, h3 + .tagline-m-small, .proc
 }
 
 .jumbotron-m-index .jumbotron--background {
-  background: url(image-path("index/jumbotron/bg-head-32d717c9.jpg")) center;
+  background: url(image-path("index/jumbotron/bg-head.jpg")) center;
   background-size: cover;
   background-attachment: fixed;
   opacity: 0.6
@@ -2231,7 +2231,7 @@ h2 + .tagline-m-small, .process-step h2 + .tagline, h3 + .tagline-m-small, .proc
 
 @media screen and (max-width: 937px) and (max-height: 640px) {
   .jumbotron-m-index .jumbotron--background {
-    background-image: url(image-path("index/jumbotron/bg-head-small-16a10776.jpg"))
+    background-image: url(image-path("index/jumbotron/bg-head-small.jpg"))
   }
 }
 
@@ -2408,7 +2408,7 @@ h2 + .tagline-m-small, .process-step h2 + .tagline, h3 + .tagline-m-small, .proc
 }
 
 .magic h2 {
-  font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif
+  font-family: "YaHei UI","Microsoft yahei",微软雅黑,wf_segoe-ui_normal,Tahoma,Arial,sans-serif;
 }
 
 @media screen and (max-width: 639px) {
@@ -2450,7 +2450,7 @@ h2 + .tagline-m-small, .process-step h2 + .tagline, h3 + .tagline-m-small, .proc
 }
 
 .process-step h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: normal
 }
 
@@ -2668,7 +2668,6 @@ h2 + .tagline-m-small, .process-step h2 + .tagline, h3 + .tagline-m-small, .proc
 }
 
 .you-have strong {
-  font-style: italic;
   color: #00B0E3
 }
 
