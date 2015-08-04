@@ -411,15 +411,15 @@ label.visuallyhidden-with-placeholder {
   color: #014467
 }
 
-.button-m-white-transparent, .contact-form--submit-button {
+.button-m-white-transparent, .contact-form--submit-button,.button-m-white-transparent, .contact-form--submit-button:visited,.contact-form--submit-button:visited {
   color: white;
   border-color: white;
   background-color: transparent
 }
 
 .button-m-white-transparent:hover, .contact-form--submit-button:hover {
-  background: white;
-  color: #014467
+  background-color: transparent;
+  color: #00FF33;
 }
 
 .button-m-block, .talk .button, .talk .contact-form--submit-button, .talk .open-position--apply, .contact-form--submit-button {
@@ -670,6 +670,7 @@ label.visuallyhidden-with-placeholder {
 }
 
 .jumbotron--content {
+  z-index: 99999;
   position: relative
 }
 
@@ -2219,7 +2220,7 @@ h2 + .tagline-m-small, .process-step h2 + .tagline, h3 + .tagline-m-small, .proc
 }
 
 .jumbotron-m-index .jumbotron--background {
-  background: url(image-path("index/jumbotron/bg-head.jpg")) center;
+  background-image: url(image-path("index/jumbotron/bg-head.jpg"));
   background-size: cover;
   background-attachment: fixed;
   opacity: 0.6
@@ -3549,4 +3550,29 @@ h2 + .tagline-m-small, .process-step h2 + .tagline, h3 + .tagline-m-small, .proc
 
 .not-found p.tagline {
   font-size: 1rem
+}
+
+
+.jumbotron-m-index:before {
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  opacity: 0.6;
+  background: -webkit-linear-gradient(right,rgba(255,255,255,0)0,transparent 1%,rgba(0,0,0,.1)26%,rgba(0,0,0,.35)71%,rgba(0,0,0,.5)100%);
+  background: -moz-linear-gradient(right,rgba(255,255,255,0)0,transparent 1%,rgba(0,0,0,.1)26%,rgba(0,0,0,.35)71%,rgba(0,0,0,.5)100%);
+  background: -o-linear-gradient(right,rgba(255,255,255,0)0,transparent 1%,rgba(0,0,0,.1)26%,rgba(0,0,0,.35)71%,rgba(0,0,0,.5)100%);
+  background: linear-gradient(right,rgba(255,255,255,0)0,transparent 1%,rgba(0,0,0,.1)26%,rgba(0,0,0,.35)71%,rgba(0,0,0,.5)100%);
+}
+
+.jumbotron-m-index:after{
+  content: '';
+  left: 0;
+  top: 0;
+  background: rgba(32,54,114,.29);
+  height: 100%;
+  position: absolute;
+  width: 100%;
 }
