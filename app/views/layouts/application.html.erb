@@ -39,10 +39,16 @@
   } catch (e) {
   }</script>
 
-  <%= javascript_include_tag 'jquery-2.1.1.min','Retina' %>
+  <%= javascript_include_tag 'jquery-1.11.3.min','Retina' %>
 
   <%= stylesheet_link_tag 'font-awesome.min.css'%>
-
+<script>
+  $(function(){
+      if(!$.support.leadingWhitespace ){
+          alert("您使用的浏览器版本太低...无法访问我们的网站，请升级您的浏览器。")
+      }
+  })
+</script>
 </head>
 <body>
 
@@ -68,9 +74,10 @@
       <div class="map-overlay--circle"></div>
     </div>
     <div class="map-info">
-      <p class="map-info--address"><strong>业务部经理</strong></p>
+      <p class="map-info--address"><strong>产品部 许经理</strong></p>
 
       <p class="map-info--phone">+86 15652508851</p>
+      <p class="map-info--email">iych100@163.com</p>
     </div>
   </div>
   <div class="map--item map--item-m-right" data-subhover=".map-overlay--circle, .map--google-map">
@@ -81,12 +88,10 @@
     </div>
     <div class="map-info">
       <p class="map-info--address"><strong>
-        技术部经理
+        技术部 刘经理
       </strong></p>
-
       <p class="map-info--phone">+86 15811151523</p>
-
-      <p class="map-info--email">lyuanhua2008@163.com</p>
+      <p class="map-info--email">iych100@163.com</p>
     </div>
   </div>
 </section>
