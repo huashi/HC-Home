@@ -5,9 +5,9 @@ class UserMailer < ApplicationMailer
     @user = user
     @browser=browser
     @url  = 'iych100@163.com'
-    delivery_options = { user_name: 'iych101@163.com',
-                         password: 'hfxyeqjzhbvnjxjc',
-                         address: 'smtp.163.com' }
+    delivery_options = { user_name: 'liuyuanhua2015@hotmail.com',
+                         password: 'lyh850229',
+                         address: 'smtp.live.com' }
     mail(to: @url, subject: '< WebSite User >',delivery_method_options: delivery_options)
   end
 end
