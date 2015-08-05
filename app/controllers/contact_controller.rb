@@ -5,8 +5,10 @@ class ContactController < ApplicationController
   end
 
   def create
-    #@email = Email.new(email_params)
+    @email = Email.new(email_params)
    # @email.save
+    @browser=request.env['HTTP_USER_AGENT']
+    UserMailer.welcome_email(@email,@browser).deliver
     render 'contact_success/index'
   end
 
