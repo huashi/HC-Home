@@ -1,0 +1,10 @@
+/* line 4, F:/rails/HC-Home/app/assets/stylesheets/welcome.scss */
+.jumbotron-m-index .jumbotron--background:before {
+  left: 0;
+  bottom: 0;
+  opacity: 0.6;
+  background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0) 0, transparent 1%, rgba(0, 0, 0, 0.1) 26%, rgba(0, 0, 0, 0.35) 71%, rgba(0, 0, 0, 0.5) 100%);
+  background: -moz-linear-gradient(right, rgba(255, 255, 255, 0) 0, transparent 1%, rgba(0, 0, 0, 0.1) 26%, rgba(0, 0, 0, 0.35) 71%, rgba(0, 0, 0, 0.5) 100%);
+  background: -o-linear-gradient(right, rgba(255, 255, 255, 0) 0, transparent 1%, rgba(0, 0, 0, 0.1) 26%, rgba(0, 0, 0, 0.35) 71%, rgba(0, 0, 0, 0.5) 100%);
+  background: linear-gradient(right, rgba(255, 255, 255, 0) 0, transparent 1%, rgba(0, 0, 0, 0.1) 26%, rgba(0, 0, 0, 0.35) 71%, rgba(0, 0, 0, 0.5) 100%);
+}

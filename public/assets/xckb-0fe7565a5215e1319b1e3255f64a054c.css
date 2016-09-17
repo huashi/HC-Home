@@ -1,0 +1,459 @@
+/* line 4, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+body, div, p, ul, ol, li, textarea, form, input, h1, h2, h3, h4, h5, dl, dt, dd, img, section, article, aside, header, footer, nav, figure, hgroup {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+body {
+  font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica,serif;
+  min-width: 320px;
+  -webkit-text-size-adjust: none;
+  font-size: 14px;
+  color: #5b5b5b;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 6, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+input, button, select, textarea {
+  font-size: 15px;
+  font-family: Helvetica,serif;
+  color: #383838;
+}
+
+/* line 7, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+ul, ol, li {
+  list-style: none;
+}
+
+/* line 8, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+a {
+  text-decoration: none;
+  color: #5b5b5b;
+}
+
+/* line 9, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+img {
+  border: 0;
+  max-width: 100%;
+  display: block;
+}
+
+/* line 10, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+section, article, aside, header, footer, nav, figure, hgroup {
+  display: block;
+}
+
+/* line 11, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+i, cite, em, var, address {
+  font-style: normal;
+}
+
+/* line 12, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 14, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+body {
+  background: url("/assets/xckb/ynkb-cc564303ef6a396bc9b92b96c61ae4da.jpg") no-repeat top center;
+  background-size: 100% auto;
+}
+
+/*06*/
+/* line 16, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+#wrap {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+/* line 18, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.logo {
+  width: 90px;
+  margin: 12px auto 0;
+  overflow: hidden;
+  height: 80px;
+}
+
+/* line 19, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.timeBox {
+  margin: 0 12px;
+  position: relative;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/* line 20, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.timeBox h1 {
+  line-height: 30px;
+  color: #515151;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: normal;
+}
+
+/* line 21, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.timeBox .star {
+  width: 43px;
+  height: 10px;
+  margin-bottom: 5px;
+}
+
+/* line 22, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.timeBox .star img {
+  width: 10px;
+  margin: 0 auto;
+}
+
+/* line 24, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.timeline {
+  width: 43px;
+  height: 86%;
+  position: absolute;
+  left: 0;
+  top: 45px;
+  z-index: -5;
+}
+
+/* line 25, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.line {
+  width: 5px;
+  height: 100%;
+  background: #fff;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  box-sizing: border-box;
+}
+
+/* line 27, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item {
+  margin-bottom: 10px;
+}
+
+/* line 28, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item .txt {
+  width: 67.5%;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+/* line 29, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item h2 {
+  color: #505050;
+  font-size: 14px;
+  font-family: "Microsoft yahei";
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+/* line 30, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item span.sj {
+  width: 0;
+  height: 0;
+  border-width: 8px;
+  position: absolute;
+}
+
+/* line 31, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item .pic {
+  width: 43px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+/* line 33, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item1 {
+  margin-left: 52px;
+}
+
+/* line 34, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item1 .txt {
+  border: 1px solid #b9b9b9;
+  background: #e7e7e7;
+  margin-right: 10px;
+}
+
+/* line 35, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item1 span.sj {
+  top: 8px;
+  border-style: dashed dashed dashed solid;
+  overflow: hidden;
+}
+
+/* line 36, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item1 span.sj1 {
+  right: -16px;
+  border-color: transparent transparent transparent #b9b9b9;
+}
+
+/* line 37, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item1 span.sj2 {
+  right: -15px;
+  border-color: transparent transparent transparent #e7e7e7;
+}
+
+/* line 38, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item1 li {
+  width: 31.333333%;
+  height: 30%;
+  line-height: 30%;
+  display: inline-block;
+  display: table-cell;
+  vertical-align: middle;
+  float: left;
+  background: #b4cddd;
+  margin: 5px 2px 0px 2px;
+  text-align: center;
+}
+
+/* line 39, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item1 li a {
+  width: 100%;
+  height: 100%;
+  line-height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* line 40, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item1 li img {
+  vertical-align: middle;
+}
+
+/* line 42, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item2 .txt, .item3 .txt, .item4 .txt, .item5 .txt {
+  border: 1px solid #c7c7c1;
+  background: #ffffff;
+  box-shadow: 0 1px 3px #cbcbbd;
+}
+
+/* line 43, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item2 span.sj {
+  top: 15px;
+  border-style: dashed solid dashed dashed;
+  overflow: hidden;
+}
+
+/* line 44, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item2 span.sj1, .item3 span.sj1, .item4 span.sj1, .item5 span.sj1 {
+  left: -16px;
+  border-color: transparent #c7c7c1 transparent transparent;
+}
+
+/* line 45, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item2 span.sj2, .item3 span.sj2, .item4 span.sj2, .item5 span.sj2 {
+  left: -15px;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+/* line 46, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item2 .pic, .item3 .pic, .item4 .pic, .item5 .pic {
+  margin-right: 7px;
+}
+
+/* line 47, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item2 h2, .item1 h2, .item3 h2, .item5 h2 {
+  margin-bottom: 0px;
+}
+
+/* line 49, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item3 .txt {
+  border: 1px solid #c7c7c1;
+  background: #ffffff;
+}
+
+/* line 50, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item3 .tp {
+  background: #b4cddd;
+  overflow: hidden;
+  text-align: ceter;
+}
+
+/* line 51, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item3 h2 {
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/* line 52, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item3 p {
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: "Microsoft yahei";
+  border-top: 1px solid #b5b5b5;
+  padding-top: 10px;
+}
+
+/* line 53, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item3 .link {
+  text-align: right;
+  margin-top: 5px;
+}
+
+/* line 54, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item3 .link a {
+  text-align: right;
+  color: #386ea5;
+  font-size: 12px;
+  font-family: "Microsoft yahei";
+}
+
+/* line 55, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item3 span.sj {
+  top: 43px;
+  border-style: dashed solid dashed dashed;
+  overflow: hidden;
+}
+
+/* line 56, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item3 .pic {
+  margin-top: 39px;
+}
+
+/* line 58, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item4 .tp {
+  width: 52px;
+  height: 52px;
+  background: #b4cddd;
+  float: left;
+  margin-right: 8px;
+  overflow: hidden;
+}
+
+/* line 59, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item4 p {
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: "Microsoft yahei";
+}
+
+/* line 60, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item4 .link {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* line 61, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item4 .link a {
+  line-height: 15px;
+  text-align: right;
+  color: #386ea5;
+  font-size: 12px;
+  font-family: "Microsoft yahei";
+}
+
+/* line 62, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item4 span.sj {
+  top: 23px;
+  border-style: dashed solid dashed dashed;
+  overflow: hidden;
+}
+
+/* line 63, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item4 .pic {
+  margin-top: 19px;
+}
+
+/* line 66, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item5 .txt {
+  border: 1px solid #c7c7c1;
+  background: #ffffff;
+}
+
+/* line 67, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item5 .tp {
+  background: #b4cddd;
+  overflow: hidden;
+  text-align: ceter;
+}
+
+/* line 68, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item5 p {
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: "Microsoft yahei";
+  border-top: 1px solid #b5b5b5;
+  padding-top: 10px;
+}
+
+/* line 69, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item5 .link {
+  text-align: right;
+  margin-top: 5px;
+}
+
+/* line 70, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item5 .link a {
+  text-align: right;
+  color: #386ea5;
+  font-size: 12px;
+  font-family: "Microsoft yahei";
+}
+
+/* line 71, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item5 span.sj {
+  top: 43px;
+  border-style: dashed solid dashed dashed;
+  overflow: hidden;
+}
+
+/* line 72, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item5 .pic {
+  margin-top: 39px;
+}
+
+/* line 74, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item5 li {
+  width: 31.333333%;
+  height: 30%;
+  line-height: 30%;
+  display: inline-block;
+  display: table-cell;
+  vertical-align: middle;
+  float: left;
+  background: #b4cddd;
+  margin: 5px 2px 0px 2px;
+  text-align: center;
+}
+
+/* line 75, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item5 li a {
+  width: 100%;
+  height: 100%;
+  line-height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* line 76, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.item5 li img {
+  vertical-align: middle;
+}
+
+/* line 78, F:/rails/HC-Home/app/assets/stylesheets/xckb.scss */
+.more {
+  width: 60%;
+  margin: 10px auto;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #c7c7c1;
+  text-align: center;
+  box-shadow: 0 1px 3px #cbcbbd;
+}
